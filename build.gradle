@@ -19,6 +19,11 @@ configurations {
     }
 }
 
+bootJar {
+    mainClass = 'com.naman.roastmenow.RoastMeNowApplication'  // Replace with your actual main class path
+}
+
+
 repositories {
     mavenCentral()
 }
