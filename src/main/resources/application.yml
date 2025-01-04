@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: roast-me-now
+
+server:
+  port: 7000
