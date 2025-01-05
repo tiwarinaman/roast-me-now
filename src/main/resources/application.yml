@@ -4,3 +4,9 @@ spring:
 
 server:
   port: 7000
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /
