@@ -25,7 +25,9 @@ public class IpRateLimitingFilter extends OncePerRequestFilter {
             "/swagger-resources/**",
             "/webjars/**",
             "/swagger-ui/index.html",
-            "/v3/api-docs/swagger-config"
+            "/v3/api-docs/swagger-config",
+            "/public/ping",
+            "/public/**"
     };
 
     private final RateLimiter rateLimiter;
